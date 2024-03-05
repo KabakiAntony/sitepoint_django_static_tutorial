@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitepoint Django Tutorial</title>
+    <link rel="stylesheet" href="{% static 'static_demo/css/styles.css'%}">
+</head>
+
+<body>
+    <h2>Hello there, welcome to our great site</h2>
+    <p id="todaysDate"></p>
+    <img src="{% static 'static_demo/images/flowerImage.png' %}" alt="Flower Image">
+    <script src="{% static 'static_demo/js/todays_date.js' %}"></script>
+</body>
+
+</html>
